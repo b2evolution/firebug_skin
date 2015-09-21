@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*
+	Temporary HTML5 CSS
+*/
+
+/* START: Enabling HTML5 */
+article, aside, audio, canvas, dialog, figure, footer, header, nav, section, video {
+	display: block; /* temporary fix */
+}
+
+mark, m, meter, progress, ruby, rt, rp, time {
+	display: inline; /* temporary fix */
+}
+/* END: Enabling HTML5 */

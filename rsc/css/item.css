@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/**
+ * These are the styles that are used INSIDE of a blog item/post.
+ *
+ * The skin should include this into its design,
+ * but this should ALSO be included in the backoffice when viewing/editing posts.
+ */
+
+/* -------------------------------- b2evolution Stylesheet Imports --------------------------------- */
+@import url("../../../../rsc/css/item_base.css");	/*	Import default blog elements styles	*/
+/* -------------------------------- b2evolution Stylesheet Imports --------------------------------- */
+
+/*
+Theme Name: firebug
+Theme URI: http://www.blogohblog.com
+Description: The "Firebug" WordPress theme has been built by <a href="http://www.blogohblog.com" title="Free WordPress Themes">Blog Oh! Blog</a> and comes under a Creative Commons License. This is a free theme and can be obtained by going to :-  <a href="http://www.blogohblog.com/wordpress-theme-firebug" title="Free WordPress Themes">Firebug Theme</a>
+Version: 1.0
+Author: Jai Nischal Verma
+Author URI: http://www.blogohblog.com
+*/
+
+/*+++++++ MISC +++++++*/
+acronym, abbr, span.caps { cursor: help; }
+acronym, abbr { border-bottom: 1px dashed #999; }
+blockquote { margin: 15px 30px 15px 10px; padding-left: 20px; border: 0; border-left: 1px solid #ddd; background-color: transparent; }
+blockquote cite { margin: 5px 0 0; display: block; }
+.center { text-align: center; }
+a img { border: none; }
+pre {border: solid 1px #9a9a9a;color: blue;margin: 10px;padding:10px;background: #f3f2ed}
+code {font-size:1.0em; color: #888; }
+.clear { clear:both; }
+.space { clear:both; height:20px; width:580px;}
+img { border:none; }
+img.centered { display: block; margin-left: auto; margin-right: auto; }
+img.alignright { padding: 4px; margin: 0 0 2px 7px; display: inline; }
+img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
+.alignright { float: right; }
+.alignleft { float: left }
+html>body #content ul { padding: 0 0 0 30px; padding-left: 10px; }
+html>body #content li { margin: 7px 0 8px 10px; }
+#content ul li:before { content: "\00BB \0020"; }
+#content ol { padding:0; margin:0;}
+
+del {
+	text-decoration: line-through;
+}
