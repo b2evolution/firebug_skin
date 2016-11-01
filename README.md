@@ -6,6 +6,7 @@ Link to skin: http://skins.b2evolution.net/firebug-skin
 
 #### v1.1.1
 
+- Removed obsolete file
 - Intro posts layout fix
 - New skinshot
 
