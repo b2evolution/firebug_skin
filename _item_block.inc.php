@@ -87,6 +87,9 @@ $params = array_merge( array(
 
 			<p class="postmetadata">
 			<?php
+			
+				if( ! $Item->is_intro() )
+				{
 				$Item->categories( array(
 						'before'          => ''.T_('Posted in: '),
 						'after'           => ' ',
@@ -95,6 +98,8 @@ $params = array_merge( array(
 						'include_external'=> true,
 						'link_categories' => true,
 					) );
+				}
+				
 				$Item->edit_link( array( // Link to backoffice for editing
 						'before'    => ' | ',
 						'after'     => '',
@@ -103,12 +108,15 @@ $params = array_merge( array(
 			</p>
 
 			<?php
+				if( ! $Item->is_intro() )
+				{
 				// List all tags attached to this post:
 				$Item->tags( array(
 						'before' =>         '<p class="tags">'.T_('Tags: ').'',
 						'after' =>          '</p>',
 						'separator' =>      ', ',
 					) );
+				}
 			?>
 
 			<div class="space"></div>
